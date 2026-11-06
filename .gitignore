@@ -1,2 +1,3 @@
 urlhaus.csv
 __pycache__/
+*.db

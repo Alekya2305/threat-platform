@@ -10,7 +10,7 @@ def test_clean_url():
     store.add("http://evil.example/malware.exe")
     assert store.is_bad("http://google.com") == False
 
-def test_missing_url():
+def test_missing_file():
     store = IOCStore()
     store.load("missing.csv")
     store.is_bad("http://evil.example/malware.exe") == False
