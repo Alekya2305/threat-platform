@@ -2,3 +2,5 @@ urlhaus.csv
 __pycache__/
 *.db
 /out
+iocs.csv
+fake_logs.csv
