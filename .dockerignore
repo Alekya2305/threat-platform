@@ -1,0 +1,20 @@
+# Git history + editor + Python cache
+.git
+.vscode/
+__pycache__/
+
+# Big data files the API doesn't need
+urlhaus.csv
+iocs.csv
+fake_logs.csv
+logs.csv
+practice.db
+
+# Spark / Kafka leftovers
+out/
+chk/
+.ivy2/
+
+# Kubernetes files (YAML is for kubectl, not the image)
+k8s-lab/
+k8s/
