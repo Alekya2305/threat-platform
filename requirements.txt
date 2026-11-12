@@ -3,3 +3,4 @@ uvicorn
 confluent-kafka
 boto3
 pyarrow
+prometheus-client
